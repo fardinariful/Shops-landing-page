@@ -68,6 +68,7 @@ main{
     display: flex;
     /* flex-direction: column; */
     background-color: #e6e9eb;
+    max-height: 400px;
 }
  
 .Banner_text_container{
@@ -77,7 +78,8 @@ main{
 
 .Banner_image_container{
     width: 50%;
-    padding: 16px;
+    padding: 20px;
+    position: relative;
     /* border: 1px solid brown; */
     
 }
@@ -125,6 +127,25 @@ button{
     border: none;
     margin-right: 16px;
 
+}
+
+.Discount{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(128, 128, 16);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 70%;
+    left: 70%;
+   
+  
+    
+    
 }
 
 .all_mans_bag{
